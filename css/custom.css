@@ -23,8 +23,8 @@ h2,.h2{
 
 .wrapper {
     display: grid;
-    /*-矩形 長rows:10, 寬columns:5  手機長寬比2:1*/
-    grid-template-rows: 1fr 9fr;
+    /*-矩形 長rows:9, 寬columns:5  */
+    grid-template-rows: 1fr 8fr;
     grid-template-columns: 1fr 4fr;
     grid-template-areas: 
     "top top"
