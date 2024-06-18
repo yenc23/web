@@ -1,0 +1,101 @@
+﻿html {font-size: 1em;}
+body {background-color:white;}
+
+h2,.h2{
+    font-size: min(max(2vw, 16px), 20px);
+  }
+
+/* h2 {font-size: large;
+    font-weight: Bold;} */
+
+.linkleft{
+    display: inline-block;
+    font-size: min(max(2vw, 16px), 20px);
+    font-weight: bold;
+    /*vertical-align: middle; */
+    position: relative;
+    transition: all .3s linear;
+}
+.linkleft:hover{
+    color: #fff;
+    background-color: #a130b3
+}
+
+.wrapper {
+    display: grid;
+    /*-矩形 長rows:9, 寬columns:5  */
+    grid-template-rows: 1fr 8fr;
+    grid-template-columns: 1fr 4fr;
+    grid-template-areas: 
+    "top top"
+    "sidebar content1";
+}
+
+.wrapper div {
+    border: solid 0px;
+}
+
+.top {
+    grid-area: top;
+}
+
+.sidebar {
+    grid-area: sidebar;
+    display: block;
+    width:  fit-content;
+    float: left;
+}
+
+.content1 {
+    grid-area: content1;
+}
+
+/*
+.content2 {
+    grid-area: content2;
+}
+
+.content3 {
+    grid-area: content3;
+}
+*/
+
+#s1 {
+    font-weight: bolder;
+    font-size: min(max(2.25vw, 18px), 22px);
+    /* font-size: large; */
+    text-align: center;
+    background-color: gray ;
+}
+
+#a1 {
+    color:black;
+    font-size: min(max(2.25vw, 18px), 22px);
+    text-decoration:none;
+    text-shadow:2px 3px 5px #ae6396;
+}
+#a1:hover{
+    color:black;
+    text-decoration:none;
+    text-shadow:2px 3px 5px #5d5656;
+}
+
+/*
+#bg1 {
+    background-image: url(../images/top1.webp);
+    background-repeat: no-repeat;
+    background-size: contain;
+    display: block;
+    height: 100%;
+    width: 100%;
+}
+*/
+/*
+#timg {
+    max-height: 100%;
+    max-width: 100%;
+    object-fit: scale-down;
+	display: block;
+}
+*/
+
