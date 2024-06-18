@@ -4,16 +4,16 @@ body {background-color:white;}
 h2,.h2{
     font-size: min(max(2vw, 16px), 20px);
   }
-/*
-h2 {font-size: large;
-    font-weight: Bold;}
-*/
+
+/* h2 {font-size: large;
+    font-weight: Bold;} */
+
 .linkleft{
     display: inline-block;
-    /*
-    vertical-align: middle;
+    font-size: min(max(2vw, 16px), 20px);
+    font-weight: bold;
+    /*vertical-align: middle; */
     position: relative;
-    */
     transition: all .3s linear;
 }
 .linkleft:hover{
@@ -62,7 +62,7 @@ h2 {font-size: large;
 
 #s1 {
     font-weight: bolder;
-    font-size: min(max(2.5vw, 18px), 24px);
+    font-size: min(max(2.25vw, 18px), 22px);
     /* font-size: large; */
     text-align: center;
     background-color: gray ;
@@ -70,7 +70,7 @@ h2 {font-size: large;
 
 #a1 {
     color:black;
-    font-size: min(max(2.5vw, 18px), 24px);
+    font-size: min(max(2.25vw, 18px), 22px);
     text-decoration:none;
     text-shadow:2px 3px 5px #ae6396;
 }
