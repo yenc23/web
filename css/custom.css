@@ -1,8 +1,8 @@
-html {font-size:16px;}
+html {font-size: 1em;}
 body {background-color:white;}
 
-h2 {font-size: 16px;}
-h2 {font-weight: 600;}
+h2 {font-size: large;
+    font-weight: Bold;}
 
 .linkleft{
     display: inline-block;
@@ -17,7 +17,8 @@ h2 {font-weight: 600;}
 
 .wrapper {
     display: grid;
-    grid-template-rows: 1fr 3fr;
+    /*-矩形 長rows:8, 寬columns:5 */
+    grid-template-rows: 1fr 7fr;
     grid-template-columns: 1fr 4fr;
     grid-template-areas: 
     "top top"
@@ -34,6 +35,9 @@ h2 {font-weight: 600;}
 
 .sidebar {
     grid-area: sidebar;
+    display: block;
+    width:  fit-content;
+    float: left;
 }
 
 .content1 {
@@ -52,7 +56,7 @@ h2 {font-weight: 600;}
 
 #s1 {
     font-weight: bolder;
-    font-size: 18px;
+    font-size: large;
     text-align: center;
     background-color: gray ;
 }
