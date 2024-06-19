@@ -25,7 +25,7 @@ h2,.h2{
     display: grid;
     /*-矩形 長rows:7, 寬columns:5  */
     grid-template-rows: 1fr 6fr;
-    grid-template-columns: 1fr 5fr;
+    grid-template-columns: 1fr 4fr;
     grid-template-areas: 
     "top top"
     "sidebar content1";
