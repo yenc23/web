@@ -23,9 +23,9 @@ h2,.h2{
 
 .wrapper {
     display: grid;
-    /*-矩形 長rows:8, 寬columns:7  */
-    grid-template-rows: 1fr 7fr;
-    grid-template-columns: 1fr 6fr;
+    /*-矩形 長rows:7, 寬columns:5  */
+    grid-template-rows: 1fr 6fr;
+    grid-template-columns: 1fr 5fr;
     grid-template-areas: 
     "top top"
     "sidebar content1";
