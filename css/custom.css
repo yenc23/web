@@ -23,8 +23,8 @@ h2,.h2{
 
 .wrapper {
     display: grid;
-    /*-矩形 長rows:8, 寬columns:6  */
-    grid-template-rows: 1fr 7fr;
+    /*-矩形 長rows:9, 寬columns:6  */
+    grid-template-rows: 1fr 9fr;
     grid-template-columns: 1fr 5fr;
     grid-template-areas: 
     "top top"
